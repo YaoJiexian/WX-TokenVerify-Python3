@@ -13,7 +13,7 @@ class Handle(object):
             timestamp = data.timestamp
             nonce = data.nonce
             echostr = data.echostr
-            token = "YaoJiexian02" #请按照公众平台官网\基本配置中信息填写
+            token = "YaoJiexian02" #此处我填了自己的，需要将其替换成你们自己公众平台官网\基本配置中的Token
 
             list = [token,timestamp,nonce]
             list.sort()
